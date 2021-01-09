@@ -48,7 +48,7 @@ export default function HeaderLinks(props) {
               />
           </ListItem>
           <ListItem className={classes.listItem}>
-              <Button href="/" color="transparent" className={classes.navLink}>
+              <Button href="assets/Sahar Bechor - CV.pdf" color="transparent" className={classes.navLink} download>
                   <GetAppIconRounded className={classes.icons} style={{ marginRight: '6px' }} />
                   Resume
               </Button>
@@ -82,7 +82,7 @@ export default function HeaderLinks(props) {
                   placement={window.innerWidth > 959 ? 'top' : 'left'}
                   classes={{ tooltip: classes.tooltip }}
               >
-                  <Button
+                  <Button<button>
                       color="transparent"
                       href="https://www.facebook.com/sahar.bechor"
                       target="_blank"
