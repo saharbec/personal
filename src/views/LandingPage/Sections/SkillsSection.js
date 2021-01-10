@@ -9,10 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardFooter from "components/Card/CardFooter.js";
 import Quote from "components/Typography/Quote";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/skillsStyle.js";
@@ -63,7 +60,7 @@ export default function SkillsSection() {
                 <img src={angularLogo} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Angular JS
+                Angular
                 <br />
               </h4>
             </Card>
