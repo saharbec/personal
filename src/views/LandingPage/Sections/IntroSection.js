@@ -24,8 +24,8 @@ export default function IntroSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Keeping it simple</h2>
           <h5 className={classes.description}>
-            I{"'"}m Sahar Bechor, Second year BSc student in Computer Science
-            and a full stack developer excited and eager to learn and create new
+            I{"'"}m Sahar Bechor, 3rd year BSc student in Computer Science and a
+            full stack developer excited and eager to learn and create new
             skills, improve existing ones and push myself everyday to the limit.
           </h5>
         </GridItem>
